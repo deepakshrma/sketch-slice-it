@@ -1,7 +1,7 @@
 {
   "name": "slice-it",
-  "description": "Slice-it tool, Export the slices from the local sketch file in png,jpeg,svg", 
-  "version": "0.0.1",
+  "description": "Slice-it tool, Export the slices from the local sketch file in png,jpeg,svg",
+  "version": "0.0.2",
   "engines": {
     "sketch": ">=3.0"
   },
