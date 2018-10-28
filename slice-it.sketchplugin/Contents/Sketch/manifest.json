@@ -1,0 +1,25 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "slice-it",
+      "identifier": "slice-it-identifier",
+      "script": "slice-it.js"
+    }
+  ],
+  "menu": {
+    "title": "slice-it",
+    "items": [
+      "slice-it-identifier"
+    ]
+  },
+  "version": "0.1.0",
+  "name": "slice-it",
+  "identifier": "slice-it",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "xdeepakv",
+  "authorEmail": "deepak.m.shrma@gmail.com"
+}

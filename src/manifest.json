@@ -1,0 +1,18 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "slice-it",
+      "identifier": "slice-it-identifier",
+      "script": "./slice-it.js"
+    }
+  ],
+  "menu": {
+    "title": "slice-it",
+    "items": [
+      "slice-it-identifier"
+    ]
+  }
+}

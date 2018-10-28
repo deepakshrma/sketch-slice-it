@@ -1,0 +1,35 @@
+{
+  "name": "slice-it",
+  "description": "Slice-it tool, Export the slices from the local sketch file in png,jpeg,svg", 
+  "version": "0.0.1",
+  "engines": {
+    "sketch": ">=3.0"
+  },
+  "skpm": {
+    "name": "slice-it",
+    "manifest": "src/manifest.json",
+    "main": "slice-it.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ]
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.5.2"
+  },
+  "author": "xdeepakv <deepak.m.shrma@gmail.com>",
+  "dependencies": {
+    "@skpm/child_process": "^0.3.0",
+    "@skpm/fs": "^0.2.2",
+    "@skpm/path": "^0.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepakshrma/sketch-slice-it.git"
+  }
+}
